@@ -19,27 +19,27 @@ Make sure you have the following installed:
 git clone https://github.com/your-username/meal-planner.git
 cd meal-planner
 2. **Install dependencies:**
-## Using npm: npm install
-## Or using Yarn: yarn install
+Using npm: npm install
+Or using Yarn: yarn install
 4. **Run the application:**
-## Using npm: npm run serve
-##  Or using Yarn: yarn serve
+Using npm: npm run serve
+Or using Yarn: yarn serve
 
  This will start the development server. Open your browser and navigate to http://localhost:8080.
-## Vuex Store
+Vuex Store
 The Vuex store is used to manage the state of the application, including meals and user authentication. The state is persisted using localStorage.
-## Actions
+Actions
 loadMeals: Loads meals from localStorage.
 addMeal: Adds a new meal.
 updateMeal: Updates an existing meal.
 deleteMeal: Deletes a meal.
-## Mutations
+Mutations
 setMeals: Sets the meals state.
 addMeal: Adds a meal to the state.
 updateMeal: Updates a meal in the state.
 deleteMeal: Deletes a meal from the state.
-## Getters
+Getters
 getMeals: Returns the list of meals.
-## Routes
+Routes
 The application uses Vue Router for navigation.
 
