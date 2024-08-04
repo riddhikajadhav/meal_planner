@@ -10,29 +10,6 @@ This is a Meal Planner application built with Vue.js and Vuex for state manageme
 - Persistent State Management with Vuex
 - Responsive and Professional UI
 
-## Project Structure
-
-src/
-|-- assets/
-|-- components/
-| |-- AddMeal.vue
-| |-- EditMeal.vue
-| |-- MealList.vue
-| |-- MealPlanner.vue
-|-- router/
-| |-- index.js
-|-- store/
-| |-- index.js
-|-- views/
-| |-- Home.vue
-| |-- Login.vue
-| |-- Register.vue
-|-- App.vue
-|-- main.js
-
-markdown
-Copy code
-
 ## Prerequisites
 
 Make sure you have the following installed:
@@ -67,10 +44,8 @@ src/store: Contains the Vuex store configuration.
 src/views: Contains the main views like Home.vue, Login.vue, and Register.vue.
 src/App.vue: The root component.
 src/main.js: The entry point of the application.
-
 ## Vuex Store
 The Vuex store is used to manage the state of the application, including meals and user authentication. The state is persisted using localStorage.
-
 ## Actions
 loadMeals: Loads meals from localStorage.
 addMeal: Adds a new meal.
@@ -86,8 +61,3 @@ getMeals: Returns the list of meals.
 ## Routes
 The application uses Vue Router for navigation.
 
-/: Home page (requires authentication).
-/login: Login page.
-/register: Registration page.
-/add-meal: Add Meal page (requires authentication).
-/edit-meal/:id: Edit Meal page (requires authentication)
